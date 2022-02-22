@@ -16,7 +16,7 @@ a:hover {color:rgb(255, 255, 255);}
 body {
 	font-family: 'Montserrat';
 	font-size: 21px;
-	background-attachment: fixed;
+	background-attachment: absolute;
 	background: linear-gradient(-45deg, #be5f42, #b93065, #1c85aa, #1caa89);
 	background-size: 350% 350%;
 	animation: gradient 18s ease infinite;
@@ -48,7 +48,7 @@ body {
 }
 
 #content {
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
