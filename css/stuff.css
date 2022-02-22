@@ -1,4 +1,7 @@
-*{margin: 0;}
+*{
+	margin: 0;
+	overflow: hidden;
+}
 
 .title {font-size: 32px;}
 
