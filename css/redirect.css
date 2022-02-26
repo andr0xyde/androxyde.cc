@@ -16,7 +16,7 @@ a {
 body {
 	font-family: 'Montserrat';
 	background-attachment: fixed;
-	background: linear-gradient(-45deg, #be5f42, #b93065, #1c85aa, #1caa89);
+	background: linear-gradient(-45deg, #1caa89, #1c85aa, #b93065, #be5f42);
 	background-size: 350% 350%;
 	animation: gradient 18s ease infinite;
 	height: 100vh;

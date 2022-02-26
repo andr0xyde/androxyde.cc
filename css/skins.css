@@ -1,24 +1,36 @@
-*{
-	margin: 0;
-	overflow: hidden;
-}
+*{	margin: 0;
+	overflow: hidden;}
 
-.title {font-size: 32px;}
+.osu {	font-size: 32px;
+		color: rgb(255, 0, 204);}
 
-a {
-	font-size: 23px;
-	color: rgb(255, 255, 255)
-}
+.title {font-size: 32px;
+		color: rgb(255, 255, 255);}
 
-a.colorosu {color: rgb(255, 0, 204);}
-a.colorspot {color: rgb(51, 255, 153);}
-a.spottext {color: rgb(51, 255, 153);}
-a.spottext:hover {color: rgb(51, 255, 153);}
-a.backbutton {color: rgb(255, 255, 255);}
-a.backbutton:hover {color: rgb(160, 160, 160);}
-a:hover {color: rgb(255, 255, 255);}
+.sep {	font-size: 27px;
+		color: rgb(255, 255, 255);}
+
+.colorosu {color: rgb(255, 0, 204);}
+
+.dl-all {	font-size: 15px;
+			color: rgb(255, 255, 255);}
+			
+.dl-all:hover {color: rgb(65, 65, 65);}
+
+.link {	font-size: 19px;
+		color: rgb(255, 255, 255);}
+		
+.link:hover {color: rgb(65, 65, 65);}
+
+.menu {
+		font-size: 19px;
+		color: rgb(255, 255, 255);}
+		
+.menu:hover {color: rgb(65, 65, 65);}
+
 
 body {
+	color: rgb(255, 255, 255);
 	font-family: 'Montserrat';
 	font-size: 21px;
 	background-attachment: fixed;
@@ -32,8 +44,8 @@ body {
 }
 
 .bglass {
-	width: 25rem;
-	height: 25rem;
+	width: 22rem;
+	height: 24rem;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .42); 
 	border-radius: 7px;
 	background-color: rgba(0, 0, 0, .42);
