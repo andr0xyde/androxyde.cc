@@ -12,6 +12,7 @@ a {
 
 a.colorosu {color: rgb(255, 0, 204);}
 a.colorspot {color: rgb(51, 255, 153);}
+a.colordc {color: rgb(0, 184, 230);}
 a.spottext {color: rgb(51, 255, 153);}
 a.spottext:hover {color: rgb(51, 255, 153);}
 a.backbutton {color: rgb(255, 255, 255);}
