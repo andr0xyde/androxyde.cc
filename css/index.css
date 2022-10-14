@@ -5,7 +5,7 @@
 
 .title {font-size: 32px;}
 
-.pfp {
+#pfp {
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -14,7 +14,8 @@
 
 a {
 	font-size: 23px;
-	color: rgb(255, 255, 255)	
+	color: rgb(255, 255, 255);
+	text-decoration: none;
 }
 
 a.colorsteam {color: rgb(50, 154, 233);}
@@ -37,6 +38,7 @@ body {
 	display: grid;
 	align-items: center;
 	justify-content: center;
+	text-align:center;
 }
 
 .bglass {
@@ -67,4 +69,9 @@ body {
 	transform: translate(-50%, -50%);
 	color: white;
 	text-shadow: 2px 2px #000;
+}
+
+img {
+	height: 250px;
+	width: 250px;
 }

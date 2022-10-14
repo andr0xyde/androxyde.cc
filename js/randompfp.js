@@ -3,4 +3,5 @@ function generateNumber(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min;
 }
-document.write('<img src="images/pfps/pfp' + generateNumber(1, 6) + '.jpg" width="250" height="250" class="pfp">')
+
+window.onload = document.getElementById("pfp").src = "./images/pfps/pfp" + generateNumber(1, 6) + ".jpg";
